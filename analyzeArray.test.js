@@ -17,6 +17,6 @@ test('array-like object (string)', () => {
   expect(analyzeArray('12345')).toBe('NOT AN ARRAY or NOT AN ARRAY WITH VALID NUMBERS');
 });
 
-test('array-like object (string)', () => {
+test('Empty array must return message that ARRAY CANNOT BE EMPTY', () => {
   expect(analyzeArray([])).toBe('ARRAY CANNOT BE EMPTY');
 });
