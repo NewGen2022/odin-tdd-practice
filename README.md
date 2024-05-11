@@ -1,1 +1,2 @@
-# odin-tdd-practice
+# Practice of Test-Driven Development
+
